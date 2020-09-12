@@ -1,0 +1,36 @@
+body {
+    color: #2D2D39;
+    background-color: #F0F4F6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+a {
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+a.nav-link {
+    color: #FFFFFF !important;
+}
+a.nav-link:hover,
+a.nav-active {
+    color: yellow !important;
+}
+.txt-lg {
+    font-size: x-large;
+}
+
+@media (max-width: 1200px) {
+    .form-control {
+        display: block !important;
+        width: 100%;
+    }
+
+    .btn-primary {
+        display: block !important;
+        margin: 30px auto !important;
+        padding: 12px 20px;
+    }
+}
